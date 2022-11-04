@@ -1,0 +1,50 @@
+﻿@*
+For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+Layout = "_AdminLayout";
+}
+@model List<Account>
+<br />
+<div style="text-align:center;">
+<label style="font-size: 40px;">Accounts</label>
+</div>
+<br />
+<table id="Accounts" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Account Id</th>
+            <th>Login Id</th>
+            <th>Account Status</th>
+            <th>Created By</th>
+            <th>Created Date</th>
+            <th>Last ModifiedBy</th>
+            <th>Last Modified Date</th>
+        </tr>
+    </thead>
+    <tbody id="AdminSearchAccounts" style="text-align:center;">
+        @for (int i = Model.Count - 1; i >= 0; i--)
+        {
+            <tr>
+                <td>@Model[i].AccountId</td>
+                <td>@Model[i].LoginId</td>
+                <td>@Model[i].AccountStatus</td>
+                <td>@Model[i].CreatedByUserId</td>
+                <td>@Model[i].CreatedDate</td>
+                <td>@Model[i].LastModifiedUserId</td>
+                <td>@Model[i].LastModifiedDate</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Account Id</th>
+            <th>Login Id</th>
+            <th>Account Status</th>
+            <th>Created By</th>
+            <th>Created Date</th>
+            <th>Last ModifiedBy</th>
+            <th>Last Modified Date</th>
+        </tr>
+    </tfoot>
+</table>

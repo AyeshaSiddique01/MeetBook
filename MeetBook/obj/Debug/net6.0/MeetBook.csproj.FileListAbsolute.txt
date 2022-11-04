@@ -1,0 +1,130 @@
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\appsettings.Development.json
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\appsettings.json
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.staticwebassets.runtime.json
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.exe
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.deps.json
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.runtimeconfig.json
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.pdb
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Humanizer.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.AssemblyReference.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.AssemblyInfoInputs.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.AssemblyInfo.cs
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.CoreCompileInputs.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.MvcApplicationPartsAssemblyInfo.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.RazorAssemblyInfo.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.RazorAssemblyInfo.cs
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\staticwebassets.build.json
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\staticwebassets.development.json
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\bundle\MeetBook.styles.css
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\projectbundle\MeetBook.bundle.scp.css
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.CopyComplete
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.dll
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\refint\MeetBook.dll
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.pdb
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.genruntimeconfig.cache
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\ref\MeetBook.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\AutoMapper.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\libman.json
+D:\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\Views\Shared\_UserLayout.cshtml.rz.scp.css
+D:\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\appsettings.Development.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\appsettings.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\libman.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.staticwebassets.runtime.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.exe
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.deps.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.runtimeconfig.json
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\MeetBook.pdb
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\AutoMapper.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Humanizer.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.AssemblyReference.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.AssemblyInfoInputs.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.AssemblyInfo.cs
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.CoreCompileInputs.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.RazorAssemblyInfo.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.RazorAssemblyInfo.cs
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\staticwebassets.build.json
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\staticwebassets.development.json
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\Views\Shared\_UserLayout.cshtml.rz.scp.css
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\bundle\MeetBook.styles.css
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\scopedcss\projectbundle\MeetBook.bundle.scp.css
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.csproj.CopyComplete
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\refint\MeetBook.dll
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.pdb
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\MeetBook.genruntimeconfig.cache
+D:\New folder\EAD Project\MeetBook\MeetBook\obj\Debug\net6.0\ref\MeetBook.dll

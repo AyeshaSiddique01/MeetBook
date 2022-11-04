@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewData["Title"] = "MeetBook";
+}
+@model PostFriend
+<div class="container"  style="padding: 60px 0px 0px 10px;">
+    <div class="container-fluid gedf-wrapper">
+        <div class="row">
+            <div class="col-md-7 gedf-main">
+                <div class="myCard gedf-card form_color">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link" id="images-tab" data-toggle="tab" role="tab" aria-controls=""
+                                    aria-selected="false" style="text-decoration: none; color:wheat;">Add new Post</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content" id="myTabContent">
+                            <form method="post" enctype="multipart/form-data" asp-action="UploadNewPost" asp-controller="Home">
+                                <span>Select File: </span>
+                                <input type="file" name="postedFiles"/> 
+                                <div class="modal-footer">
+                                    <button type="submit" style="border:none;">Upload</button>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+                @if (Model.posts.Count > 0)
+                {
+                    @for (var i = Model.posts.Count - 1; i > 0; i--)
+                    {
+                        <div class="myCard gedf-card form_color">
+                            <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img class="rounded-circle" width="45" src=@Model.posts[i].useraccount.account.ProfilePic alt="imag">
+                                </div>
+                                <div class="ml-2">
+                                    <form asp-action="ShowProfile" method="post">
+                                        <input type="hidden" name="UserID" value=@Model.posts[i].useraccount.user.UserId />
+                                        <button type="submit" class="form-control btn ShowProfileButton h5 m-0" 
+                                            style="color: #fff;">
+                                                @Model.posts[i].useraccount.user.Fname @Model.posts[i].useraccount.user.Lname
+                                        </button>
+                                    </form>                                    
+                                    <div class="h7 text-muted" style="padding-left: 12px;"><label style="color:white;">@Model.posts[i].post.PostDate</label></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <img src=@Model.posts[i].post.PostImage alt="" style="width: 100%; height: 100%;"/>
+                    </div>
+                    <div class="card-footer">                        
+                        @if (Model.posts[i].isLiked)
+                        {
+                            <a style="text-decoration:none; color: white;" id="LikeButton" class="like_btn" value=@Model.posts[i].post.PostId @*onclick="LikeButton();"*@>
+                                <img id="LikeImage" src="~/Background/heartfill.png" alt="" style="width: 20px; height: 20px;"/>
+                            </a>
+                        }
+                        else
+                        {
+                            <a style="text-decoration:none; color: white;" id="LikeButton" class="like_btn" value=@Model.posts[i].post.PostId @*onclick="LikeButton();"*@>
+                                <img id="LikeImage" src="~/Background/heart.png" alt="" style="width: 20px; height: 20px;"/>
+                            </a>                                
+                        }
+                        <div style="float:right;">
+                        <label style="color:wheat" id="@Model.posts[i].post.PostId" class="like-counter">
+                            @Model.posts[i].post.NumberOfLikes
+                        </label> 
+                        <label>
+                            Likes
+                        </label>
+                        </div>
+                    </div>
+                </div>
+                }
+                }
+            </div>
+            <div class="col-md-3">
+                <div class="form_color">
+                    <table>
+                        @if (Model.friends.Count > 0)
+                        {
+                            @for (var i = 0; i < Model.friends.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <div style="display: grid; width: 100%; grid-template-columns: auto auto;margin-bottom: 2px; justify-content: start;">
+                                            <div style="/*margin-right: 9px;*/ width: fit-content;">
+                                                <img class="logo-image mx-auto d-block " 
+                                                src=@Model.friends[i].account.ProfilePic alt="post">
+                                            </div>
+                                            <form asp-action="ShowProfile" method="post">
+                                                <input type="hidden" name="UserID" value=@Model.friends[i].user.UserId />
+                                                <button type="submit" class="form-control btn ShowProfileButton" 
+                                                    style="color: #fff;">
+                                                    @Model.friends[i].user.Fname @Model.friends[i].user.Lname
+                                                </button>
+                                            </form>    
+                                        </div> 
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

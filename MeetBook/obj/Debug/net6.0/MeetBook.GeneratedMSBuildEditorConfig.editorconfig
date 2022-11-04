@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MeetBook
+build_property.RootNamespace = MeetBook
+build_property.ProjectDir = D:\semester 6\Final Ead Project\EAD Project final\MeetBook\MeetBook\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\semester 6\Final Ead Project\EAD Project final\MeetBook\MeetBook
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Admin/Accounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Admin/RecentActivities.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVjZW50QWN0aXZpdGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Admin/RecentPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVjZW50UG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/EditPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/FailedLogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWlsZWRMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Followers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb2xsb3dlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Followings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb2xsb3dpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Home/Suggestions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWdnZXN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/Components/AccountUser/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWNjb3VudFVzZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/SearchpartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNlYXJjaHBhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_FollowersPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb2xsb3dlcnNQYXJ0aWFsVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_FollowingsPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb2xsb3dpbmdzUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_SuggestionsPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWdnZXN0aW9uc1BhcnRpYWxWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/semester 6/Final Ead Project/EAD Project final/MeetBook/MeetBook/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-swgpm44ek7

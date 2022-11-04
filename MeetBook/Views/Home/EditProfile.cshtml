@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+@model UserAccount
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="profile-img">
+        <img src=@ViewBag.image alt="" style="border-radius: 50%; width:12%" class="text-center"/>          
+    </div>
+    <h2 class="mt-3 center">@Model.user.Fname @Model.user.Lname</h2>
+</div>
+<div class="container profile" @*style="display: none;*@">
+    <div class="row mt-2">
+        <!-- <div class="editPageGrid"> -->
+            <div class="col-md-2 EditOption">
+                <div style="float: none;">
+                    <a class="editButtonStyle center" style="padding-right: 5px; text-decoration: none;" href="/Home/EditProfile">Profile</a>
+                </div>
+                <div>
+                    <a class="editButtonStyle center" style="padding-right: 5px; text-decoration: none;" href="/Home/EditPassword">Change Password</a>
+                </div>
+            </div>
+            <div class="col-md-7 EditFormOption text-white">
+                <div class="row mb-3 editFeilds">
+                    <label for="EditPhoto" class="col-sm-2 col-form-label">Change Photo: </label>
+                    <div class="col-sm-8">
+                        <button type="button" class="btn form_color changePictureButton formButton" data-bs-toggle="modal" data-bs-target="#myModal">
+                            Change Profile Photo
+                        </button>
+                    </div>
+                </div>
+                <form action="/Home/EditProfile" method="post">
+                    <div class="row mb-3 editFeilds">
+                        <label for="inputUserName" class="col-sm-2 col-form-label">User Name: </label>
+                        <div class="col-sm-8">
+                            <input type="text" name="loginId" class="form-control" id="inputUserName" value=@Model.account.LoginId>
+                        </div>
+                    </div>
+                    <div class="row mb-3 editFeilds">
+                        <label for="inputstatus" class="col-sm-2 col-form-label">status: </label>
+                        <div class="col-sm-8">
+                            <input type="text" name="Status" class="form-control" id="inputstatus" value=@Model.account.Status>
+                        </div>
+                    </div>
+                    <div class="row mb-3 editFeilds">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email: </label>
+                        <div class="col-sm-8">
+                            <input type="email" name="Email" class="form-control" id="inputEmail" value=@Model.user.Email>
+                        </div>
+                    </div>
+                    <div class="row mb-3 editFeilds">
+                        <label for="inputPhoneNo" class="col-sm-2 col-form-label">Phone Number: </label>
+                        <div class="col-sm-8">
+                            <input type="text" name="PhoneNo" class="form-control" id="inputPhoneNo" value=@Model.user.PhoneNo>
+                        </div>
+                    </div>
+                    <div class="row mb-3 editFeilds">
+                        <label for="Genders" class="col-sm-2 col-form-label">Gender: </label>
+                        <div class="col-sm-8">
+                            <select class="form-label designLable" name="Gender" id="Genders">
+                                <option value="Male">@Model.user.Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn form_color formButton" style="color: white;">Save</button>
+                </form>
+            </div>
+        <!-- </div> -->
+    </div>
+</div>
+
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content form_color">
+            <div class="modal-header">
+                <h4 class="modal-title">Upload New Profile Photo</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" enctype="multipart/form-data" asp-action="UploadProfilePicture" asp-controller="Home">
+                    <span>Select File: </span>
+                    <input type="file" name="postedFiles"/> 
+                    <div class="modal-footer">
+                        <button type="submit" data-bs-dismiss="modal" style="border: none;">Upload Photo</button>
+                    </div>
+                </form>
+                <span>@ViewBag.Message</span>
+            </div>
+        </div>
+    </div>
+</div>

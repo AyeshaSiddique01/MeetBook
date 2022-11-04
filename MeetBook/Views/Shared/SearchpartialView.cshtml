@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<UserAccount>
+
+@if (Model.Count != 0){
+    <table>
+        @if (Model.Count > 0)
+        {
+            @for (var i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <div style="display: grid; width: 100%; grid-template-columns: auto auto;margin-bottom: 2px; justify-content: start;">
+                            <div style="/*margin-right: 9px;*/ width: fit-content;">
+                                <img class="logo-image mx-auto d-block " 
+                                src=@Model[i].account.ProfilePic alt="post">
+                            </div>
+                            <form asp-action="ShowProfile" method="post">
+                                <input type="hidden" name="UserID" value=@Model[i].user.UserId />
+                                <button type="submit" class="form-control btn ShowProfileButton" 
+                                    style="color: #fff;">
+                                    @Model[i].user.Fname @Model[i].user.Lname
+                                </button>
+                            </form>    
+                        </div> 
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+}    

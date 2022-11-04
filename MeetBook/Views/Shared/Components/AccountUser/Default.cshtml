@@ -1,0 +1,30 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model UserAccount
+<form action="/Home/FailedLogIn" method="post">
+    <div class="form-group"  style="padding: 5px 0px 10px 0px;">
+        <br />
+        <img src=@Model.account.ProfilePic alt="Profile" 
+        style="width:85px; border-radius:50%; display: block; margin-left: auto; margin-right: auto;" />
+    </div>
+    <div class="form-group"  style="padding: 5px 0px 10px 0px;  text-align: center;">
+        <label class="form-label designLable">Log in as @Model.user.Fname @Model.user.Lname</label><br />             
+        <label class="form-label designLable">@Model.user.Email</label>   
+        <a class="form-label" asp-area="" asp-controller="Home" asp-action="Index" style="font-family:serif; font-size: 14px; color:black;">Not you?</a><br />
+    </div>
+
+
+    <div class="form-group" style="padding: 0px 0px 10px 0px;">
+        <input type="password"  id="pass" class="form-control" name="pwd" placeholder="Password" required />
+        <span style="color: rgb(0, 0, 0);font-family:serif;"></span>
+        <input type="checkbox" onclick="showPassword()" /> Show Password
+        <br /><label class="form-label designLable" style="color:#ff4f4f;">
+            The password that you've entered is incorrect.</label><br />   
+    </div>
+    <div class="form-group" style="padding: 0px 0px 10px 0px;">
+        <button class="form-control btn form_btnColor submit px-3 formButton" style="font-family:serif;">Log In</button> <br />
+    </div>
+</form>

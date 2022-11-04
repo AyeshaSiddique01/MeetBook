@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "MeetBook";
+}
+@model ProfileModel
+<div class="container"  style="padding: 50px 0px 0px 10px;">
+    <div class="container emp-profile">        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img src=@Model.ProfilePic alt="" style="border-radius: 50%;"/>                    
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <div class="row">
+                        <div class="col">
+                            <label class="non-center">@Model.LogInID</label> 
+                        </div>
+                        @if (Model.isLoggedIn == true)
+                        {
+                            <div class="col">
+                                <a class="btn btn-primary submit px-3 profile-edit-btn form_btnColor formButton" asp-area="" asp-controller="Home" 
+                            asp-action="EditProfile">Edit Profile</a>
+                            </div>
+                        }
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col">
+                                <a class="text-light" @*asp-area="" asp-controller="Home" 
+                                asp-action="Profile"*@ style="text-decoration:none;">@Model.posts.Count Posts</a>
+                            </div>
+                        <div class="col">
+                            <a class="text-light" @*asp-area="" asp-controller="Home" 
+                                asp-action="Followers"*@ style="text-decoration:none;">@Model.Followers.Count Followers</a> 
+                        </div>
+                        <div class="col">
+                            <a class="text-light" @*asp-area="" asp-controller="Home" 
+                                asp-action="Followings"*@ style="text-decoration:none;">@Model.following.Count Followings</a>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <label class="non-center">@Model.UserName</label>
+                    </div>
+                    <div class="row">
+                        <label class="non-center">@Model.Status</label> 
+                    </div>
+                </div>
+            </div>           
+        </div>         
+        @if (Model.posts.Count > 0)
+        {
+        <div class="container" style="padding: 35px 0px 0px 0px">
+            <div class="postsGrid">
+                @for (var i = Model.posts.Count - 1; i >= 0; i--){
+                    <div class="post"><img class="img-responsive mx-auto d-block" src=@Model.posts[i].PostImage alt="post"></div>
+            }
+            </div>
+        </div>
+        }
+    </div>     
+</div>

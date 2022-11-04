@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MeetBook</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/DatatablesCss/jquery.dataTables.css" />
+    <link rel="stylesheet" href="~/css/DatatablesCss/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MeetBook.styles.css" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/DataTables/jquery.dataTables.js"></script>
+    <script src="~/DataTables/jquery.dataTables.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</head>
+
+<body class="adminBody">
+    <div style="height: 42px; background-color: #6397ab;">
+        <a class="navbar-brand" style="color: white; font-size: 25px; margin-left: 15px;" asp-area=""
+            asp-controller="Admin" asp-action="Index">MeetBook</a>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="container-fluid overflow-hidden" style="background-color: #6397ab;">
+                <div class="row vh-100 overflow-auto">
+                    <div
+                        class="d-flex flex-sm-column flex-row flex-grow-1 align-items-center align-items-sm-start px-3 pt-2 text-white text-start">
+                        <a class="navbar-brand" style="color: white; font-size: 22px;" asp-area=""
+                            asp-controller="Admin" asp-action="Index">DashBoard</a>
+                        <ul class="nav" id="menu">
+                            <li class="nav-item">
+                                <a class="navbar-brand" style="color: white; font-size: 20px;" asp-area=""
+                                    asp-controller="Admin" asp-action="Accounts">Accounts</a>
+                            </li>
+                            <li>
+                                <a class="navbar-brand" style="color: white; font-size: 20px;" asp-area=""
+                                    asp-controller="Admin" asp-action="RecentPosts">Recent Posts</a>
+                            </li>
+                            <li>
+                                <a class="navbar-brand" style="color: white; font-size: 20px;" asp-area=""
+                                    asp-controller="Admin" asp-action="RecentActivities">Recent Activities</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            @*
+        </div>*@
+    </div>
+    <div class="col-md-8">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+    </div>
+    </div>
+</body>
+
+</html>

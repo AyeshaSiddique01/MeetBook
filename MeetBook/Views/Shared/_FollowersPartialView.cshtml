@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="container">
+        <div style="float:left;">
+            <div style="margin-right: 11px;"><img src=@Model.account.ProfilePic alt="@Model.user.Fname" style="width:85px; height:85px; object-fit: cover;"/></div>
+        </div>
+        <div style="float:left;">
+            <form asp-action="ShowProfile" method="post">
+                <input type="hidden" name="UserID" value=@Model.user.UserId />
+                <button type="submit" class="form-control btn ShowProfileButton" 
+                    style="color: #fff;">
+                    @Model.user.Fname @Model.user.Lname
+                </button>
+            </form> 
+            <form asp-action="RemoveFollower" method="post">
+                <input type="hidden" name="ID" value="@Model.account.AccountId" />                
+                <button type="submit"class="form-control btn submit designLable addUserButton form_btnColor formButton" 
+                style="margin: 2px 0px 0px 0px; width: 110px;">Remove</button>
+            </form>                            
+        </div> 
+</div>
